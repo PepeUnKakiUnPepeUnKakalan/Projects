@@ -1,0 +1,13 @@
+funny() -- print quotes from funny.py
+user() -- get user input
+ahh(X) -- hold for X second
+timburs(X) / timbur(X) -- print X
+plus(X,Y)
+minus(X,Y)
+divide(X,Y)
+multiply(X,Y)
+wkwk() --  stop the code
+daddy(X) -- stop the code with X reasoning
+funnyshit() -- dont use this please 
+emoji("Number from 0 to 7") -- return any emoji from 0 to 7
+clear() -- clear console crap

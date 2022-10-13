@@ -1,25 +1,31 @@
-import sys
-import platform
+##imports##
+
 import time
 import os
+from Funny import funnyarray
+from Funnyset import TableGen
 
-def user():
-  return input()
+true = True
+
+##commands##
+
+def user(X):
+  return input(X)
 
 def ahh(x):
   time.sleep(x)
 
-def add(X, C):
+def plus(X, C):
   return X + C
 
 def minus(X, C):
-  return X + C
+  return X - C
 
-def multi(X, C):
-  return X + C
+def multiply(X, C):
+  return X * C
 
 def divide(X, C):
-  return X + C
+  return X / C
 
 def timburs(X):
   print(X)
@@ -30,13 +36,14 @@ def timbur(X):
 def wkwk():
   exit("About to end his men whole career.")
 
-def Daddy(X):
+def daddy(X):
   exit(X)
 
-def Funny():
+def funnyshit():
   timburs("A Louis Vuitton security guard  slaps a 13 year old boy in the face at a Fashion Week outside the Louvre.")
 
 def emoji(X):
+  X = str(X)
   if X == "0":
     return "🗿"
   if X == "1":
@@ -56,3 +63,6 @@ def emoji(X):
     
 def clear():
   os.system('clear')
+
+def funny():
+  return TableGen(funnyarray)

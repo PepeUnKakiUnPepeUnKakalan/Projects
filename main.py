@@ -1,9 +1,8 @@
 from ChristopherColumbus import *
-from LoadingScreen import *
-loading()
-timburs(add(2,3))
-timburs("gay")
-emo = emoji("3")
-timburs("cum " + emo)
-Funny()
-Daddy("Fuck me in the ass")
+from LoadingScreen import loading
+loading("t") ## default t in quotations mark, if you want to remove loading time, remove the t but leave the quotation mark there
+
+##main## 
+
+timbur(funny())
+daddy(funny())
